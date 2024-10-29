@@ -1,3 +1,47 @@
 body{
     margin: 0px;
+    font-family: "Heebo", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1920px;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    display: inline-block;
+
+}
+
+header nav{
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: #3E3E3E;
+    font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.37px;
+    line-height: 22px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li:last-of-type a{
+    margin: 0;
 }
