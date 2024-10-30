@@ -71,8 +71,19 @@ header nav ul li:last-of-type a{
     margin: 0;
 }
 
+section.hero {
+    position: relative;
+}
 
 section.hero img{
     width: 100%;
     height: auto;
+}
+
+.hero-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    opacity: 0.4;
 }
