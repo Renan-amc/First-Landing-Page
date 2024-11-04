@@ -311,13 +311,39 @@ section.newsletter form button {
     text-transform: uppercase;
 }
 
-footer {
-    text-align: center;
-}
-
 footer .bottom-nav {
     padding: 60px;
     background-color: #3E3E3E;
+}
+
+footer .bottom-nav .container{
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-nav ul li {
+    list-style: none;
+}
+
+footer .bottom-nav ul .list-title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+footer .bottom-nav ul li a{
+    color: #E0E0E0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 9px;
+    display: block;
 }
 
 footer .copyright-text { 
@@ -331,3 +357,4 @@ footer .copyright-text {
     letter-spacing: 0.4px;
     line-height: 22px;
 }
+
