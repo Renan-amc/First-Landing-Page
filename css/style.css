@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     font-family: "Heebo", sans-serif;
-    min-height: 3000px;
     padding-top: 80px;
 }
 
@@ -255,14 +254,14 @@ section.best-sellers .product-slider .product .product-info button {
 }
 
 section.newsletter {
-    background-color: gray;
+    background-color: #C8C8C8;
     max-width: 955px;
     text-align: center;
     padding: 72px 0px;
     margin: 80px auto;
 }
 
-section.newsletter h3{
+section.newsletter h3 {
     font-size: 24px;
     letter-spacing: 0.6px;
     line-height: 42px;
@@ -271,7 +270,7 @@ section.newsletter h3{
     margin-bottom: 10px;
 }
 
-section.newsletter p{
+section.newsletter p {
     font-size: 16px;
     letter-spacing: 0.4px;
     line-height: 42px;
@@ -279,12 +278,12 @@ section.newsletter p{
     margin-bottom: 20px;
 }
 
-section.newsletter form{
+section.newsletter form {
     display: flex;
     justify-content: center;
 }
 
-section.newsletter input{
+section.newsletter input {
     height: 50px;
     width: 326px;
     max-width: 80%;
@@ -297,7 +296,7 @@ section.newsletter input{
     line-height: 21px;
 }
 
-section.newsletter form button{
+section.newsletter form button {
     height: 50px;
     width: 326px;
     max-width: 20%;
@@ -310,4 +309,25 @@ section.newsletter form button{
     letter-spacing: 0.35px;
     line-height: 21px;
     text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .bottom-nav {
+    padding: 60px;
+    background-color: #3E3E3E;
+}
+
+footer .copyright-text { 
+    color: white;
+    background-color: #2B2B2B;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
 }
