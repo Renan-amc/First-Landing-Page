@@ -168,13 +168,38 @@ section.best-sellers .product-slider .product {
    text-align: center;
    margin: 0 8px;
    padding: 40px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
-section.best-sellers .product-slider .product .product-info{
+section.best-sellers .product-slider .product img{
+    max-width: 100%;
+}
+
+section.best-sellers .product-slider .product.new::before {
+    content: "New";
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px 15px;
+    border-radius: 40px;
+    background-color: #EC1C1C;
+}
+
+section.best-sellers .product-slider .product .product-info {
     margin-top: 50px;
 }
 
-section.best-sellers .product-slider .product .product-info .categories{
+section.best-sellers .product-slider .product .product-info .categories {
     color: #3E50E5;
     font-weight: normal;
     font-size: 14px;
@@ -184,7 +209,7 @@ section.best-sellers .product-slider .product .product-info .categories{
     margin-top: 0px;
 }
 
-section.best-sellers .product-slider .product .product-info .title{
+section.best-sellers .product-slider .product .product-info .title {
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 30px;
@@ -193,7 +218,7 @@ section.best-sellers .product-slider .product .product-info .title{
     margin-top: 0px;
 }
     
-section.best-sellers .product-slider .product .product-info .price{
+section.best-sellers .product-slider .product .product-info .price {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.7px;
@@ -202,7 +227,7 @@ section.best-sellers .product-slider .product .product-info .price{
     margin-top: 0px;
 }
 
-section.best-sellers .product-slider .product .product-info button{
+section.best-sellers .product-slider .product .product-info button {
     height: 50px;
     width: 219.5px;
     border-radius: 220px;
