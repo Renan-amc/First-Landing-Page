@@ -226,6 +226,20 @@ section.best-sellers .product-slider .product .product-info .price {
     margin-bottom: 16px;
     margin-top: 0px;
 }
+  
+section.best-sellers .product-slider .product .product-info .price .discounted-price {
+    color: #EC1C1C;
+}
+    
+section.best-sellers .product-slider .product .product-info .price  .original-price {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    text-decoration: line-through;
+}
 
 section.best-sellers .product-slider .product .product-info button {
     height: 50px;
