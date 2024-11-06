@@ -61,6 +61,16 @@ header nav ul li {
     display: inline-block;
 }
 
+header nav ul li.menu-icon {
+    display: none;
+}
+
+header nav ul li.menu-icon img {
+    vertical-align: middle;
+    width: 24px;
+    height: auto;
+}
+
 header nav ul li a {
     color: #3E3E3E;
     font-family: "Heebo", sans-serif;
@@ -401,22 +411,56 @@ footer .copyright-text {
         width: 1180px;
         max-width: 90%;
     }
+
+    header {
+        height: 70px;
+    }
+
+    body {
+        margin: 0px;
+        font-family: "Heebo", sans-serif;
+        padding-top: 80px;
+    }
+    
 }
 
 /* End of Design for Small Desktop */
 
 /* Start of Design for Tablets */
 @media screen and (max-width: 960px) {
+
     .container{
         max-width: 92%;
+    }
+
+    header nav ul li {
+        display: none;
+    }
+
+    header .logo {
+        font-size: 24px;
+    }
+
+    header nav ul li.menu-icon {
+        display: inline-block;
     }
 }
 /* End of Design for Tablets */
 
 /* Start of Design for Mobile Phones */
 @media screen and (max-width: 576px) {
+
     .container{
         max-width: 92%;
+    }
+
+    header .logo {
+        font-size: 18px;
+    }
+
+    header .logo .blue-dot {
+        width: 7px;
+        height: 7px;
     }
 }
 /* End of Design for Mobile Phones  */
