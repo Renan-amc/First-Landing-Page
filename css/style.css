@@ -6,7 +6,7 @@ body {
 
 .container {
     width: 1440px;
-    max-width: 90%px;
+    max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
@@ -91,9 +91,9 @@ section.hero {
 }
 
 section.hero img {
-    min-width: 1155px;
+    max-width: 1920px;
+    max-height: 1100px;
     width: 100%;
-    min-height: 350px;
 }
 
 .hero-content {
@@ -421,6 +421,27 @@ footer .copyright-text {
         font-family: "Heebo", sans-serif;
         padding-top: 80px;
     }
+
+    .hero-content h1 {
+        font-size: 44px;
+        letter-spacing: 1.1px;
+        line-height: 50px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content p {
+        max-width: 518px;
+        font-size: 18px;
+        letter-spacing: 0.45px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content button {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+    }
     
 }
 
@@ -444,6 +465,25 @@ footer .copyright-text {
     header nav ul li.menu-icon {
         display: inline-block;
     }
+
+    .hero-content h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 46px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 24px;
+    }
+    
+    .hero-content button {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        width: 196px;
+    }
 }
 /* End of Design for Tablets */
 
@@ -461,6 +501,31 @@ footer .copyright-text {
     header .logo .blue-dot {
         width: 7px;
         height: 7px;
+    }
+
+    .hero-content {
+        position: static;
+    }
+     .hero-content h1 {
+        color: #000;
+        font-size: 32px;
+        letter-spacing: 0.8px;
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-top: 27px;
+    }
+    
+    .hero-content p {
+        display: none;
+    }
+    
+    .hero-content button {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        width: 196px;
+        margin: auto;
     }
 }
 /* End of Design for Mobile Phones  */
